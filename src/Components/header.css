@@ -1,0 +1,164 @@
+.scrollup {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 100;
+	background-color: #eee;
+	border-radius: 0.7rem;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
+}
+.scrollup-icon {
+	border-radius: 5rem;
+}
+.show {
+	opacity: 1;
+	visibility: visible;
+}
+.scroll-light-bg {
+	background-color: rgb(0, 0, 0);
+}
+.home-icon {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 20px;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0 0 1rem;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.nav-item {
+	padding: 5px 30px;
+	border-radius: 5px;
+}
+.nav-link {
+	text-decoration: none;
+	font-size: 1.2rem;
+	cursor: pointer;
+	position: relative;
+}
+/* .nav-link:hover {
+	background-color: aquamarine;
+    box-shadow: black;
+} */
+.nav-link:active {
+	border-bottom: 2px solid;
+}
+.nav-link:hover::after {
+	visibility: visible;
+	width: 70%;
+	height: 2px;
+	opacity: 1;
+}
+.nav-link::after {
+	content: "";
+	margin-top: 2px;
+	position: absolute;
+	bottom: -4px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	background-color: black;
+	transform: translateX(-50%);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.btn-mode {
+	cursor: pointer;
+	height: 45px;
+	width: 45px;
+	margin-right: 5px;
+	margin-left: 15px;
+	padding-top: 5px;
+	border-radius: 50%;
+	border: none;
+	background-color: rgb(41, 44, 63);
+	outline: none;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	transition: all 0.2s ease-in-out 0s;
+}
+.dark-mode {
+	background-color: rgb(124, 209, 247);
+}
+.icon-logo {
+	/* width: 40px; */
+}
+
+.nav-menu {
+	display: none;
+}
+@media screen and (max-width: 450px) {
+	.navigation {
+		display: none;
+	}
+	.nav-menu {
+		display: flex;
+	}
+	.nav-menu-container {
+		align-items: flex-end;
+		background: grey;
+		background-color: inherit;
+		background-repeat: repeat;
+		background-size: cover;
+		bottom: 0;
+		box-shadow: 0 0 20px hsla(0, 0%, 66%, 0.15);
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		padding: 4rem 0rem 1rem 0rem;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 5;
+		transition: all 0.25s linear ease-in-out;
+	}
+	.nav-menu-box {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		text-transform: capitalize;
+		width: 100%;
+		align-items: center;
+		gap:1rem;
+	}
+	.nav-link {
+		font-size: 1.8rem;
+	}
+}
+
+/* 
+)
+nav .container .nav-collapse {
+    position: absolute;
+    background-color: #2b3439;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100%);
+    top: -100vh;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+*/

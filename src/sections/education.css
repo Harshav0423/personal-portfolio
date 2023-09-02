@@ -1,0 +1,163 @@
+.education-section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.education-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60rem;
+}
+.education-head {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1;
+	justify-content: space-evenly;
+	align-items: inherit;
+	justify-content: space-between;
+	column-gap: 15rem;
+}
+.education-heading {
+	font-size: x-large;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+.education-list {
+	align-items: flex-start;
+	display: flex;
+	/* flex: 2 1; */
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 3rem;
+}
+.education-item {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 1rem;
+	background: #f5f5f5;
+	border: 1px solid #a02f2fbd;
+	border-radius: 18px;
+	padding: 15px;
+	gap: 2rem;
+	width: 100%;
+}
+.edu-dark-bg {
+	background: #333333;
+	border: 1px solid #efd2f3;
+}
+.education-icon {
+	height: 10rem;
+	width: 10rem;
+}
+.education-period {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	flex: 1 1;
+}
+.education-school {
+	font-weight: bold;
+	font-size: large;
+}
+.school-image {
+	height: 8rem;
+	position: relative;
+	width: 8rem;
+	border: 1px solid;
+	border-radius: 8px;
+	margin-top: 1rem;
+}
+.education-details {
+	flex: 1 1;
+}
+.education-title {
+	align-items: flex-start;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0;
+	margin: 0;
+}
+.cert-list {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	gap:1rem;
+}
+.cert-item {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1rem;
+	background: #f5f5f5;
+	border: 1px solid rgba(0, 98, 154, 0.35);
+	border-radius: 18px;
+	padding: 1rem;
+	width: 12rem;
+}
+.cert-dark-bg {
+	background: #333333;
+	border: 1px solid white;
+}
+.cert-head {
+	width: 100%;
+	background-color: white;
+	border-radius: 5px 5px 0 0;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.cert-badge {
+	height: 5rem;
+	margin: 1rem;
+	width: auto;
+}
+.cert-details {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1;
+	text-align: center;
+}
+.cert-title {
+	font-family: Google Sans Regular;
+}
+.cert-provider {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	color: rgb(141, 141, 141);
+}
+
+@media only screen and (max-width: 450px) {  
+    .education-head{
+        column-gap: 1rem;
+    }
+    .education-heading {
+        font-size: large;
+    }
+	.education-icon {
+		height: 5rem;
+		width: 5rem;
+	}
+	.education-list {
+		width: 100%;
+		padding: 0;
+	}
+	.education-item {
+		width: fit-content;
+	}
+	.cert-item {
+		width: 100%;
+	}
+
+}
