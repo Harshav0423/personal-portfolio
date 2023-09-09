@@ -27,23 +27,3 @@
 .item-active {
     background-color: rgb(124, 209, 247);
 }
-
-@media only screen and (min-width: 480px) and (max-width: 1024px) { 
-    .skill-filter-container {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        flex-wrap: wrap;
-    }
-    .skill-filter-item {
-        display: flex;
-        background-color: #eee;
-        border-radius: 0.5rem;
-        color: #000;
-        cursor: pointer;
-        font-weight: 800;
-        /* margin: 0.5rem; */
-        padding: 0.5rem 1rem;
-        transition: all .3s ease;
-    }
-}

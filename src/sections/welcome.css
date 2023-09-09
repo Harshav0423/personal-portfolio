@@ -4,11 +4,12 @@
 }
 .welcome {
 	display: flex;
-
-	align-items: center;
-	flex-direction: column;
-	width: fit-content;
-	gap: 3rem;
+    flex-direction: column;
+    width: -moz-fit-content;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 .info {
 	padding: 100px 0 0 0;
@@ -38,7 +39,7 @@
 .welcome-text {
 	max-width: 45rem;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 820px) {
 	.welcome {
 		display: flex;
 		flex-direction: column;
@@ -69,4 +70,10 @@
 	.welcome-content p {
 		padding: 0rem 2rem 0px 2rem;
 	}
+}
+
+@media only screen and (min-width: 1100px) { 
+	.info {
+		padding: 7rem 0 0 10rem;
+	 }
 }
