@@ -13,7 +13,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 1rem;
-	width: 60rem;
+	max-width: 60rem;
 	transition: all 0.3s ease;
 }
 .skill-item {
