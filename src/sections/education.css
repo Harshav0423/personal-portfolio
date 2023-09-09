@@ -150,6 +150,7 @@
 		width: 5rem;
 	}
 	.education-list {
+		max-width: 30rem;
 		width: 100%;
 		padding: 0;
 	}
