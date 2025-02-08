@@ -1,5 +1,10 @@
-import { iub,klu, awsCCP, adsCE, } from "./images";
+import { iub, klu, awsCCP, secplus, adsCE, } from "./images";
 const certification = [
+	{title: "Security+ Y701",
+		provider: "CompTIA",
+		badge: secplus,
+		link: "https://www.credly.com/badges/723efd73-5fad-42d7-8824-966b5b85d723"
+	},
 	{
 		title: "AWS Certified Cloud Practitioner",
 		provider: "AWS Certification",

@@ -6,6 +6,18 @@ import { useDarkMode } from "../myContext";
 import {MdWorkOutline} from 'react-icons/md'
 const experience = [
 	{
+		title: "Software Engineer III",
+		company: "Walmart Global Tech",
+		time: "10/2023 - current",
+		image: walmart,
+		details: [
+			"Designed and developed a Unified Security Operations Platform with Role-Based Access Control (RBAC) placed, using Docker, Django, Python, NextJS, PostgreSQL, and Redis.",
+			"Developed a comprehensive services in reducing the SecOps team’s workload and improving operational efficiency.",
+			"Created RESTful APIs in Python/Django for real-time data synchronization between security systems, enhancing data flow and operational efficiency.",
+			"Led the full SDLC for security services, ensuring scalable and secure code through CI/CD pipelines, unit-testing, and code reviews.",
+		],
+	},
+	{
 		title: "Software Engineer III Intern",
 		company: "Walmart Global Tech",
 		time: "05/2022 - 08/2022",

@@ -17,17 +17,10 @@ export default function Welcome() {
 				</div>
 				<div className="welcome-content">
 					<p className="welcome-text">
-						Hi I'm Harsha Valiveti, a recent Computer Science graduate student
-						from IUB. I am a sensible and detail-oriented software engineer with
-						strong problem-solving and critical thinking skills. I'm skilled in
-						Java, Python and C++, and I have 2yrs+ experience in working as
-						Software Engineer. I'm always eager to learn new things. I'm
-						currently looking for Full-Time roles in Software Engineering,
-						Machine Learning and Data Engineering, with immediate join.
-					</p>
-					<p className="welcome-text">
-						In my spare time, I enjoy building fun projects, playing Badminton
-						and recently started reading books on sci-fi(Dune).
+							Currently employed as a Software Engineer at Walmart.
+							I am a detail-oriented developer with
+							strong problem-solving and analytical skills, enthusiastic about building innovative solutions.
+							My skill set includes Python, Java, JavaScript, React, Node.js, and  with extensive experience in creating scalable applications and services.
 					</p>
 				</div>
 			</div>

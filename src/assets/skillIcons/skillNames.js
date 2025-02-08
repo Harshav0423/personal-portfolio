@@ -1,6 +1,5 @@
 import angular from "./angular.png";
 import aws from "./aws.png";
-import c from "./c.png";
 import cpp from "./cpp.png";
 import css from "./css.png";
 import docker from "./docker.png";
@@ -19,41 +18,20 @@ import react from "./react.png";
 import rest from "./rest.jpeg";
 import spring from "./spring.png";
 import typescript from "./typescript.png";
+import django from "./django.png";
 
-const names = [
-	[rest, "Rest"],
-	[react, "React JS"],
-	[spring, "Spring"],
-	[javascript, "JavaScript"],
-	[java, "Java"],
-	[python, "Python"],
-	[css, "CSS"],
-	[git, "Git"],
-	[html, "HTML"],
-	[nextjs, "Next.js"],
-	[angular, "Angular"],
-	[typescript, "TypeScript"],
-	[aws, "AWS"],
-	[c, "C"],
-	[cpp, "C++"],
-	[docker, "Docker"],
-	[flask, "Flask"],
-	[kafka, "Kafka"],
-	[mongodb, "MongoDB"],
-	[mysql, "MySQL"],
-	[postgres, "PostgreSQL"],
-];
 const fenames = [
 	[react, "React JS"],
+	[typescript, "TypeScript"],
 	[javascript, "JavaScript"],
 	[angular, "Angular"],
 	[html, "HTML"],
 	[css, "CSS"],
-	[typescript, "TypeScript"],
 ];
 const fwnames = [
 	[spring, "Spring"],
 	[nextjs, "Next.js"],
+	[django, "Django"],
 	[flask, "Flask"],
 ];
 const dbnames = [
@@ -64,7 +42,6 @@ const dbnames = [
 const lnames = [
 	[java, "Java"],
 	[python, "Python"],
-	[c, "C"],
 	[cpp, "C++"],
 ];
 const dvpnames = [
@@ -72,6 +49,15 @@ const dvpnames = [
 	[docker, "Docker"],
 	[aws, "AWS"],
 	[rest, "Rest"],
+];
+
+const names = [
+	...lnames,
+	[kafka, "Kafka"],
+	...dbnames,
+	...dvpnames,
+	...fenames,
+	...fwnames,
 ];
 export default names;
 export { fenames, fwnames, dbnames, lnames, dvpnames };

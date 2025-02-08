@@ -1,5 +1,6 @@
 import adsCE from "./adsCE.png";
 import awsCCP from "./awsCCP.png";
+import secplus from "./sec+.png";
 import cognizant from "./cognizant.jpeg";
 import iub from "./indianauniversity.png";
 import klu from "./klu.jpeg";
@@ -19,6 +20,7 @@ import tetris from "./projectIcons/tetris.png";
 export {
 	adsCE,
 	awsCCP,
+	secplus,
 	cognizant,
 	iub,
 	klu,

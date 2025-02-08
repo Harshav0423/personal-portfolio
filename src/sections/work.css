@@ -92,6 +92,9 @@
     opacity: 1;
     font-weight: 300;
 }
+.experience-desc p {
+    font-size: small;
+}
 
 @media only screen and (max-width: 820px) { 
     .work-section {

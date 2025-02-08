@@ -13,7 +13,7 @@ function SocialIcons() {
 			<a href="https://www.linkedin.com/in/harsha-valiveti" target="_blank">
 				<BsLinkedin size="2em" />
 			</a>
-			<a href="mailto:harsha.valiveti98@gmail.com">
+			<a href="mailto:hvaliveti.careers@gmail.com">
 				<BiLogoGmail size="2em" />
 			</a>
 			<a href="https://www.github.com/Harshav0423">
